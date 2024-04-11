@@ -1,2 +1,2 @@
 READ ME de grupo Limitless
-Javier Torres
+Colaborador: Endless-Continue
