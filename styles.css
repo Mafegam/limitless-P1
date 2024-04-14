@@ -1,26 +1,45 @@
-.navbar{
+.navbar {
     border: 1px solid black;
     padding: 10px;
 }
 
-.header{
+.header {
     border: 1px solid black;
     padding: 10px;
 }
 
-.contenedor{
+.container {
+    max-width: 1000px;
+}
+
+h2 {
+    font-size: 33, 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+button p {
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.contenedor {
     display: flex;
     justify-content: center;
     gap: 15px;
 
 }
 
-.subcontenedor{
+.subcontenedor {
     position: relative;
     max-width: 300px;
 }
 
-.subcontenedor button{
+.subcontenedor button {
     position: absolute;
     top: 40%;
     left: 33%;
@@ -31,10 +50,10 @@
 
 .img-subcontenedor {
     width: 300px;
-    height: 215px;    
+    height: 215px;
 }
 
-.container h2{
+.container h2 {
     padding: 10px;
     padding-bottom: 0;
 }
@@ -44,18 +63,18 @@
     padding: 10px;
 }
 
-.container button{
+.container button {
     margin-left: 10px;
 
 }
 
 @media screen and (max-width: 767px) {
 
-.contenedor{
-    display: grid;
-    align-content: center;
+    .contenedor {
+        display: grid;
+        align-content: center;
+
+    }
+
 }
 
-
-
-}
