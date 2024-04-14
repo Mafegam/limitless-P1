@@ -1,0 +1,9 @@
+body {
+    background-image: url(travel3.jpg);
+    background-repeat: no-repeat;
+
+}
+.mb-3 {
+    text-align: center;
+    background-color: rgba(2, 114, 114, 0.432);
+}

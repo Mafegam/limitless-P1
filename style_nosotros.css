@@ -1,3 +1,25 @@
+@import url();
+body {background-image: url(travel.jpg);
+
+}
+
+.tituloNosotros {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color: rgba(126, 165, 41, 1);
+}
+#NOS {
+    background-color: rgba(3, 191, 191, 0.733);;
+    border-radius: 10px;
+}
+
+h4 {
+    font-family: "popins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 .img-thumbnail {
     border-radius: 30%; 
     margin: 10px;
@@ -7,5 +29,5 @@
     width: 50px;
     height: auto;
     object-fit: fill;
-    margin: 10px;
+    margin: 5px;
 }
