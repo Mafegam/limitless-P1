@@ -1,2 +1,4 @@
 READ ME de grupo Limitless
-John
+Colaborador: Fabian Martinez
+Colaborador: Mafe Gamboa
+Colaborador: Endless-Continue
