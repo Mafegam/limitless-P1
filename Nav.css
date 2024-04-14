@@ -1,0 +1,91 @@
+.navbar {
+    background-color: lightblue;
+    height: 80px;
+    margin: 10px;
+    border-radius: 16px;
+}
+
+.navbar .navbar-brand {
+    color: #c14df1;
+    font-weight: 500;
+    font-size: 24px;
+    transition: 0.5s color;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+}
+
+.nav-link {
+    color: #c14df1;
+    font-weight: 500;
+    position: relative;
+}
+
+.a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #996c6c;
+}
+
+@media(min-width:991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #c14df1;
+        visibility: hidden;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-link:hover::before {
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+.offcanvas-title {
+    color: #cd8ee7;
+
+}
+
+.login-button {
+    background-color: #a13dcf;
+    color: #fdfdfd;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.2s background-color;
+}
+
+.login-button:hover {
+    background-color: #18bbe4;
+}
+
+a:not([Mhm]):not([login-button]) {
+    &:hover {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
+.container-fluid {
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+}
