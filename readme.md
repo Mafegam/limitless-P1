@@ -1,4 +1,3 @@
-READ ME de grupo Limitless
-Colaborador: Fabian Martinez
-Colaborador: Mafe Gamboa
-Colaborador: Endless-Continue
+Home page responsive with only navbar and footer,It is not finished yet, it can be modified.
+
+By:Izzy
