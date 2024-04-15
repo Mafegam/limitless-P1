@@ -1,10 +1,10 @@
 .hero-section{
-    background-image: url(Asset/pexels-abbas-mohammed-3680912.jpg);
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-size: cover;
-    margin-bottom: 2cm;
-     
+  background-image: url(Asset/pexels-abbas-mohammed-3680912.jpg);
+  background-repeat: no-repeat;
+  background-position: 0px ;
+  background-size: cover;
+  margin-bottom: 2cm;
+   
 }
 
 .hero-section .container {
@@ -32,9 +32,9 @@ article {
     position: relative;
     border-radius: 16px;
     box-shadow: none;
-    background: #f5f2f2;
+    background: #f0eded;
     transform-origin: center;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease-in-out;
     overflow: hidden;
   }
   
@@ -81,7 +81,7 @@ article {
   }
   
   article a:focus {
-    outline: 1px dotted #2f7d88;
+    outline: 1px dotted #b32594;
   }
   
   article a .icon {
@@ -96,7 +96,7 @@ article {
   
   article:has(:hover, :focus) {
     --img-scale: 1.1;
-    --title-color: #218896;
+    --title-color: #d917f3;
     --link-icon-translate: 0;
     --link-icon-opacity: 1;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -174,6 +174,7 @@ article {
       }
   }
   .tcl{
-    font-size: 19px;
+    font-size: 14px;
     color: #FFF;
+    margin-top: 7px;
   }

@@ -1,9 +1,13 @@
-/* .navbar {
-    background-color: #fff;
+.navbar {
+    background-color: #df252500;
     height: 80px;
-    margin: 10px;
     border-radius: 16px;
-} */
+} 
+
+.navbar.navbar-expand-lg.sticky-top{
+    background-color: #ffffff00 !important;
+    opacity: 100% !important;
+}
 
 .navbar .navbar-brand {
     color: #c14df1;
