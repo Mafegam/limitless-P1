@@ -10,7 +10,7 @@
 }
 
 .navbar .navbar-brand {
-    color: #c14df1;
+    color: #290d35;
     font-weight: 500;
     font-size: 24px;
     transition: 0.5s color;
@@ -28,7 +28,7 @@
 }
 
 .nav-link {
-    color: #c14df1;
+    color: #9020b6;
     font-weight: 500;
     position: relative;
 }
@@ -52,7 +52,7 @@
         transform: translateX(-50%);
         width: 0;
         height: 2px;
-        background-color: #c14df1;
+        background-color: #ae00ff;
         visibility: hidden;
         transition: 0.2s ease-in-out;
     }
@@ -64,7 +64,7 @@
 }
 
 .offcanvas-title {
-    color: #cd8ee7;
+    color: #140b0b;
 
 }
 
