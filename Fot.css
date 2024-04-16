@@ -107,20 +107,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .btn_get_two:hover {
     background: transparent;
-<<<<<<< HEAD
     color: #5c35c5;
-=======
-    color: #5e2ced;
->>>>>>> 8c6449e63866f0d798f927e562d3909c3c47937d
 }
 
 .new_footer_top .f_social_icon a:hover {
     background: #5e2ced;
-<<<<<<< HEAD
     border-color: #241450;
-=======
-    border-color: #5e2ced;
->>>>>>> 8c6449e63866f0d798f927e562d3909c3c47937d
   color:white;
 }
 .new_footer_top .f_social_icon a + a {
@@ -128,11 +120,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .new_footer_top .f-title {
     margin-bottom: 30px;
-<<<<<<< HEAD
     color: #4b7ed6;
-=======
-    color: #5982ca;
->>>>>>> 8c6449e63866f0d798f927e562d3909c3c47937d
 }
 .f_600 {
     font-weight: 600;
@@ -140,12 +128,6 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .f_size_18 {
     font-size: 18px;
 }
-<<<<<<< HEAD
-=======
-.f-title:hover{
-    color: #5982ca;
-}
->>>>>>> 8c6449e63866f0d798f927e562d3909c3c47937d
 h1, h2, h3, h4, h5, h6 {
     color: #2a458f;
 }
@@ -215,7 +197,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-<<<<<<< HEAD
 #github{
     border-radius: 20%;
     width: 20px;
@@ -223,6 +204,3 @@ h1, h2, h3, h4, h5, h6 {
     object-fit: fill;
     margin-left: 5px;
 }
-=======
-
->>>>>>> 8c6449e63866f0d798f927e562d3909c3c47937d
