@@ -1,4 +1,4 @@
-.hero-section2{
+.hero-section{
     background-image: url(Asset/FondoPlaya.jpg);
     background-repeat: no-repeat;
    background-position: 0px 0px;
@@ -6,7 +6,7 @@
     margin-bottom: 2cm;
 } 
 
-.hero-section2 .container {
+.hero-section .container {
     height: 100vh;
     z-index: 1;
     position: relative;
