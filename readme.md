@@ -1,14 +1,20 @@
-<<<<<<< HEAD
-Home page/Login and Register responsive,It is not finished yet, it can be modified.
 
-By:Izzy
-=======
-READ ME de grupo Limitless
-<<<<<<< HEAD
-Colaborador: Fabian Martinez
-Colaborador: Mafe Gamboa
-Colaborador: Endless-Continue
-=======
-Colaboradora: Mafe-Gamboa
->>>>>>> mafe-gamboa
->>>>>>> 8c6449e63866f0d798f927e562d3909c3c47937d
+# Limitless Travel
+
+Proyecto sitio web pensado para vuelos y guias turisticas enfocado en las zonas mas visitadas de colombia, la pagina cuenta con inicio/destino/noticias/sobre nosotros/contactanos/login solo frontend totalmente responsive.
+
+Contribuyentes 
+
+- Mafe Gamboa
+- Izzy
+- Javier Torres
+- Fabian Martinez
+
+### Lenguajes y libreria utilizada
+
+- HTML
+- CSS
+- Javascript
+- Bootstrap
+
+#### @Limitless Team
