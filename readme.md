@@ -5,10 +5,10 @@ Proyecto sitio web pensado para vuelos y guias turisticas enfocado en las zonas 
 
 Contribuyentes 
 
-- Mafe Gamboa
-- Izzy
-- Javier Torres
-- Fabian Martinez
+- Mafe Gamboa (Noticas)
+- Izzy (Inicio y Login)
+- Javier Torres (Destinos)
+- Fabian Martinez (Sobre nosotros y Contactanos)
 
 ### Lenguajes y libreria utilizada
 
