@@ -8,7 +8,7 @@
 }
 
 .hero-section .container {
-    height: 100vh;
+    height: 92vh;
     z-index: 1;
     position: relative;
     padding-left: 5cm;
@@ -16,6 +16,7 @@
 
 .tittle21 {
     color: aliceblue;
+    margin-bottom: 3.5cm;
 }
 .serv-img{
     box-sizing: content-box;
