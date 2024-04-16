@@ -1,12 +1,11 @@
-.navbar {
-    background-color: #ffff;
+/* .navbar {
+    background-color: #ffffff;
     height: 80px;
-    margin: 10px;
-    border-radius: 16px;
+    margin: 0 ;
 }
 
 .navbar .navbar-brand {
-    color: #c14df1;
+    color: rgba(2, 114, 114, 1);
     font-weight: 500;
     font-size: 24px;
     transition: 0.5s color;
@@ -24,7 +23,7 @@
 }
 
 .nav-link {
-    color: #c14df1;
+    color: rgba(2, 114, 114, 1);
     font-weight: 500;
     position: relative;
 }
@@ -65,7 +64,101 @@
 }
 
 .login-button {
-    background-color: #a13dcf;
+    background-color: #56a80a;
+    color: #fdfdfd;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.2s background-color;
+}
+
+.login-button:hover {
+    background-color: rgba(3, 172, 191, 1);
+}
+
+a:not([Mhm]):not([login-button]) {
+    &:hover {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
+.container-fluid {
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+}
+
+
+ */
+.navbar {
+    background-color: #ffffff;
+    height: 80px;
+    margin: 0 ;
+}
+
+.navbar .navbar-brand {
+    color: rgba(2, 114, 114, 1);
+    font-weight: 500;
+    font-size: 24px;
+    transition: 0.5s color;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+}
+
+.nav-link {
+    color: rgba(2, 114, 114, 1);
+    font-weight: 500;
+    position: relative;
+}
+
+.a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #996c6c;
+}
+
+@media(min-width:991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: rgba(126, 165, 41, 1);
+        visibility: hidden;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-link:hover::before {
+        width: 100%;
+        visibility: visible;
+    }
+
+}
+
+.offcanvas-title {
+    color: rgba(3, 172, 191, 1);
+
+}
+
+.login-button {
+    background-color: rgba(126, 165, 41, 1);
     color: #fdfdfd;
     font-size: 14px;
     padding: 8px 20px;
@@ -83,6 +176,17 @@ a:not([Mhm]):not([login-button]) {
         color: inherit;
         text-decoration: none;
     }
+}
+
+.contenedorGlobal {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.603);
+    max-width: 950px;
+    margin: auto;
+    border-radius: 5px;
+    margin: 10px auto 15px auto;
+
 }
 
 .container-fluid {
