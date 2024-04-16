@@ -1,6 +1,5 @@
 # limitless-P1
 
-<<<<<<< HEAD
 ## 2do projecto calificable
 
 ### COLABORADORES
