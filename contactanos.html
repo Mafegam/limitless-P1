@@ -38,13 +38,13 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link mx-lg-2 active" aria-current="page" href="#"> Inicio </a>
+                      <a class="nav-link mx-lg-2 active" aria-current="page" href="Index.html"> Inicio </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link mx-lg-2" href="#"> Destinos</a>
+                      <a class="nav-link mx-lg-2" href="servicios.html"> Destinos</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link mx-lg-2" href="#"> Noticias </a>
+                      <a class="nav-link mx-lg-2" href="noticias.html"> Noticias </a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link mx-lg-2" href="nosotros.html"> Nosotros </a>
@@ -54,7 +54,7 @@
                     </li>
                 </div>
               </div>
-              <a href="#" class="login-button"> Reserva </a>
+              <a href="Log.html" class="login-button"> Reserva </a>
             </button>
           </div>
         </nav>
@@ -85,18 +85,18 @@
                 <form>
                     <br>
                     <div class="mb-3">
-                        <label for="nombre" class="form-label"> Nombre Completo </label><input type="text" id="nombre" required>
+                        <label for="nombre" class="form-label"> Nombre Completo </label><input type="text" class="form-control" id="nombre" required>
                     </div> 
                    <div class="mb-3">
-                        <label for="telefono" class="form-label"> Teléfono de contacto </label><input type="tel" id="telefono" required />
+                        <label for="telefono" class="form-label"> Teléfono de contacto </label><input type="tel" class="form-control" id="telefono" required />
                     </div>
                     <div class="mb-3">
-                        <label for="correo" class="form-label"> Correo Electrónico </label><input type="email" id="correo" aria-describedby="emailHelp" required />
+                        <label for="correo" class="form-label"> Correo Electrónico </label><input type="email" class="form-control" id="correo"  required />
                     </div>
 
                     <div class="mb-3">
                         <label for="correo" class="form-label"> ¿A qué destino deseas viajar?</label>
-                        <select name="destino" id="destino">
+                        <select class="form-control" name="destino" id="destino">
                             <option value="Seleccionar destino"> Selecciona un destino </option>
                             <option value="Cartagena"> Cartagena </option>
                             <option value="Medellin"> Medellín </option>
@@ -108,18 +108,18 @@
                     <div class="mb-3" style="padding: 0 0 6px 0">
                         <label>
                             Fecha de partida <br />
-                            <input type="date" id="partida" name="departure" value="2024-04-16">
+                            <input type="date" class="form-control" id="partida" name="departure" value="2024-04-16">
                         </label>
 
                         <label>
                             Fecha de regreso <br />
-                            <input type="date" id="llegada" name="arrival" data-value="7" value="2024-04-16">
+                            <input type="date" class="form-control" id="llegada" name="arrival" data-value="7" value="2024-04-16">
                         </label>
                     </div>
 
                     <div class="mb-3">
                         <label for="mensaje" class="form-label"> Mensaje </label>
-                        <textarea id="mensaje" rows="3"
+                        <textarea class="form-control" id="mensaje" rows="3"
                             placeholder="Cuéntanos más acerca de tu destino soñado" required></textarea>
                     </div>
 
