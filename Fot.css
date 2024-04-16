@@ -7,16 +7,18 @@
     position: relative;
       overflow-x: hidden;
 }
-.new_footer_area .footer_bottom {
+.new_footer_area {
     padding-top: 5px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 .footer_bottom {
+    padding-top: 5px;
+    padding-bottom: 0px;
     font-size: 14px;
     font-weight: 300;
     line-height: 1px;
     color: #7f88a6;
-    padding: 1px 0px;
+    padding: 1px 0px 0px 0px;
 }
 .new_footer_top .company_widget p {
     font-size: 16px;
