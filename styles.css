@@ -1,8 +1,8 @@
 /* BARRA NAVEGACION */
 .navbar {
-    background-color: rgba(3, 172, 191, 0.24);
+    background-color: #ffffff;
     height: 80px;
-    margin: 10px 0;
+    margin: 0;
 }
 
 .navbar .navbar-brand {
@@ -75,6 +75,12 @@ h2 {
     color: white;
 }
 
+.subcontenedor button:hover {
+    background-color: rgba(3, 172, 191, 0.70);
+    border: 1px solid rgba(3, 172, 191, 0.70);
+    color: white;
+}
+
 .img-subcontenedor {
     width: 300px;
     height: 215px;
@@ -112,17 +118,17 @@ h2 {
     border-radius: 10px;
 }
 
-.containerHover1{
+.containerHover1 {
     position: absolute;
     height: 100%;
     width: 100%;
     border-radius: 10px;
     transition: background-color 0.5s;
-    cursor: pointer;   
+    cursor: pointer;
 
 }
 
-.containerHover1:hover{
+.containerHover1:hover {
     background-color: #00000067;
 }
 
@@ -173,17 +179,17 @@ h2 {
 
 }
 
-.containerHover2{
+.containerHover2 {
     position: absolute;
     height: 100%;
     width: 100%;
     border-radius: 10px;
     transition: background-color 0.5s;
-    cursor: pointer;   
+    cursor: pointer;
 
 }
 
-.containerHover2:hover{
+.containerHover2:hover {
     background-color: #00000067;
 }
 
@@ -224,17 +230,17 @@ h2 {
 
 }
 
-.containerHover3{
+.containerHover3 {
     position: absolute;
-    height: 100%;
+    height: 98%;
     width: 100%;
     border-radius: 10px;
     transition: background-color 0.5s;
-    cursor: pointer;   
+    cursor: pointer;
 
 }
 
-.containerHover3:hover{
+.containerHover3:hover {
     background-color: #00000067;
 }
 
@@ -277,16 +283,16 @@ h2 {
 
 }
 
-.containerHover4{
+.containerHover4 {
     position: absolute;
-    height: 100%;
+    height: 99%;
     width: 100%;
     border-radius: 10px;
     transition: background-color 0.5s;
-    cursor: pointer;   
+    cursor: pointer;
 }
 
-.containerHover4:hover{
+.containerHover4:hover {
     background-color: #00000067;
 }
 
@@ -316,16 +322,16 @@ h2 {
 
 }
 
-.containerHover5{
+.containerHover5 {
     position: absolute;
-    height: 100%;
+    height: 96%;
     width: 100%;
     border-radius: 10px;
     transition: background-color 0.5s;
-    cursor: pointer;   
+    cursor: pointer;
 }
 
-.containerHover5:hover{
+.containerHover5:hover {
     background-color: #00000067;
 }
 
@@ -352,16 +358,20 @@ h2 {
         padding: 0;
     }
 
-    /* HEADER */
-    .fixed-top {
-        position: fixed;
-        width: 100%;
-    }
+    /* CATEGORIAS */
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+box-shadow: ;    }
 
     /* FEED */
     .contenedorPrincipal {
         width: 100%;
-        margin-top: 100px;
+        margin-top: 10px;
     }
 
     .texto1,
@@ -451,6 +461,8 @@ h2 {
         margin: 10px 0;
     }
 
+
+
     .fixed-top {
         position: fixed;
         max-width: 900px;
@@ -529,7 +541,6 @@ h2 {
     }
 }
 
-/* --------------FOOTER----------------- */
 
 @media(min-width:991px) {
     .nav-link::before {
@@ -540,7 +551,7 @@ h2 {
         transform: translateX(-50%);
         width: 0;
         height: 2px;
-        background-color: rgba(126, 165, 41, 1);
+        background-color: #56a80a;
         visibility: hidden;
         transition: 0.2s ease-in-out;
     }
@@ -557,7 +568,7 @@ h2 {
 }
 
 .login-button {
-    background-color: rgba(126, 165, 41, 1);
+    background-color: #56a80a;
     color: #fdfdfd;
     font-size: 14px;
     padding: 8px 20px;
@@ -567,7 +578,7 @@ h2 {
 }
 
 .login-button:hover {
-    background-color: #18bbe4;
+    background-color: rgba(3, 172, 191, 1);
 }
 
 a:not([Mhm]):not([login-button]) {
@@ -575,6 +586,9 @@ a:not([Mhm]):not([login-button]) {
         text-decoration: none;
     }
 }
+
+/* --------------FOOTER----------------- */
+
 
 .new_footer_area {
     background: #fbfbfd;

@@ -14,6 +14,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
+  <link rel="shortcut icon" href="logoHeader.png" type="icono de pestaña">
 
 </head>
 
@@ -25,33 +26,42 @@
       crossorigin="anonymous"></script>
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand me-auto" href="#">LLT</a>
+
+        <a class="navbar-brand me-auto" href="#"><img id="limitlesst" src="logoHeader.png" style="width: 60px;"></a>
         <button class="navbar-toggler order-2 pe-2" type="button" data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">LLT</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+          <button class="navbar-toggler order-2 pe-2" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <a class="offcanvas-title" id="offcanvasNavbarLabel"><img id="limitlessc" src="logoHeader.png"
+                  style="width: 50px;"></a>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2 active" aria-current="page" href="#"> Inicio </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="servicios.html"> Destinos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="#"> Noticias </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="nosotros.html"> Nosotros </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="nosotros.html"> Contáctanos </a>
+                </li>
+            </div>
           </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link mx-lg-2 active" aria-current="page" href="#"> Inicio </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-lg-2" href="#"> Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-lg-2" href="#"> Noticias </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-lg-2" href="nosotros.html"> Nosotros </a>
-              </li>
-          </div>
-        </div>
-        <a href="contactanos.html" class="login-button"> Contactanos </a>
+          <a href="#" class="login-button"> Reserva </a>
         </button>
       </div>
     </nav>
@@ -64,15 +74,16 @@
     <div class="contenedor">
       <div class="subcontenedor">
         <img class="img-subcontenedor" src="cano-cristales.jpg" alt="caño cristales">
-        <button type="button" class="btn btn-light">Destinos</button>
+        <a href="noticiaActualidad.html"><button type="button" class="btn btn-light">Destinos</button></a>
       </div>
+
       <div class="subcontenedor">
         <img class="img-subcontenedor" src="bogota.jpg" alt="caño cristales">
-        <button type="button" class="btn btn-light">Actualidad</button>
+        <a href="actualidad3.html"><button type="button" class="btn btn-light">Actualidad</button></a>
       </div>
       <div class="subcontenedor">
         <img class="img-subcontenedor" src="Gastronomia-Colombiana.jpg" alt="caño cristales">
-        <button type="button" class="btn btn-light">Gastronomia</button>
+        <a href="Actualidad2.html"><button type="button" class="btn btn-light">Gastronomia</button></a>
       </div>
 
 
@@ -113,9 +124,10 @@
       <div class="noticia2">
         <div class="containerHover2"></div>
 
-        <a href="#"><img src="ajiaco.jpg" class=".img-fluid" alt="foto-cartagena">
+        <a href="Actualidad2.html">
+          <h2 class="titulo2">Explora Colombia a través de sus sabores</h2>
+          <img src="ajiaco.jpg" class=".img-fluid" alt="foto-comida">
         </a>
-        <h2 class="titulo2">Explora Colombia a través de sus sabores</h2>
 
         </h2>
 
@@ -129,14 +141,16 @@
       <div class="noticia3">
         <div class="containerHover3"></div>
 
-        <a href="#"><img src="inseguridad.webp" class=".img-fluid" width="100%" alt="foto-cartagena"></a>
-        <h2 class="titulo3">Los Desafíos del Turismo en Colombia: <br> Navegando por Aguas Peligrosas
+        <a href="actualidad3.html"><img src="inseguridad.webp" class=".img-fluid" width="100%" alt="foto-cartagena">
+          <h2 class="titulo3">Los Desafíos del Turismo en Colombia: <br> Navegando por Aguas Peligrosas
 
-        </h2>
-        <p class="texto3">Desde problemas de seguridad hasta impactos ambientales, es crucial abordar
-          estos desafíos para garantizar un turismo sostenible y seguro en el país.
+          </h2>
+          <p class="texto3">Desde problemas de seguridad hasta impactos ambientales, es crucial abordar
+            estos desafíos para garantizar un turismo sostenible y seguro en el país.
 
-        </p>
+          </p>
+        </a>
+
       </div>
 
       <div class="noticia4">
