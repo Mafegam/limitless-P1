@@ -1,10 +1,20 @@
-# limitless-P1
 
-## 2do projecto calificable
+# Limitless Travel
 
-### COLABORADORES
+Proyecto sitio web pensado para vuelos y guias turisticas enfocado en las zonas mas visitadas de colombia, la pagina cuenta con inicio/destino/noticias/sobre nosotros/contactanos/login solo frontend totalmente responsive.
 
-- Colaborador: Fabian Martinez
-- Colaborador: Mafe Gamboa
-- Colaborador: Endless-Continue
-- Colaboradora: Mafe-Gamboa
+Contribuyentes 
+
+- Mafe Gamboa (Noticas)
+- Izzy (Inicio y Login)
+- Javier Torres (Destinos)
+- Fabian Martinez (Sobre nosotros y Contactanos)
+
+### Lenguajes y libreria utilizada
+
+- HTML
+- CSS
+- Javascript
+- Bootstrap
+
+#### @Limitless Team
